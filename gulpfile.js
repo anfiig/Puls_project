@@ -5,7 +5,7 @@ const cleanCSS = require('gulp-clean-css');
 const autoprefixer = require('gulp-autoprefixer');
 const rename = require("gulp-rename");
 
-gulp.task('server', function() {
+gulp.task('server', function() { 
 
     browserSync({
         server: {
