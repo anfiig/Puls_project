@@ -1,4 +1,19 @@
-@import 'base/variables'
+@import 'base/variables';
+
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
+    &::selection{
+        background: #86e67d;
+    }
 }
+
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header.scss';
+@import 'blocks/buttons';
+@import 'blocks/adventages';
+@import 'base/media'

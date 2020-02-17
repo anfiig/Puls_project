@@ -1,0 +1,101 @@
+// 1200
+// 991
+// 767
+// 575
+@media(max-width:991px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media(max-width: 767px){
+    .header{
+        &__official{
+            display: none;
+        }
+    }
+    .advantages{
+        &__items{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            margin-top: 30px;
+            &:before{
+                content: ' ';
+                width: inherit;
+                height: 2px;
+                background-color: $main-color;
+            }
+            &:nth-child(1){
+                &:before{
+                    content: none;
+                    margin-top: 0;
+                }
+            }
+            &__header{
+                font-size: 22px;
+            }
+            &__descr{
+                font-size: 18px;
+                &_red{
+                    display: block;
+                }
+            }
+        }
+
+    }
+}
+
+@media(max-width: 575px){
+    .promo{
+        &__header{
+            font-size: 35px;
+        }
+        &__subdeader{
+            font-size: 20px;
+        }
+        &__wrapper{
+            align-items: center;
+        }
+    }
+    .advantages{
+        &__header{
+            font-size: 28px;
+        }
+    }
+}
+
+@media(max-width: 425px){
+    .header{
+        &__logo{
+            width: 50%;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 150%;
+        }
+        &__subdeader{
+            font-size: 100%;
+            margin-top: 0;
+        }
+        &__icons{
+            width: 95%;
+        }
+
+    }
+}
+@media(max-width: 320px){
+    .header{
+        &__logo{
+            width: 90%;
+        }
+        .button{
+            display: none;
+        }
+        &__phone{
+            display: none;
+        }
+    }
+}
