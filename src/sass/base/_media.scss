@@ -6,6 +6,11 @@
     .container{
         width: 90%;
     }
+    .carousel{
+        .carousel__inner{
+            width:95%;
+        }
+    }
 }
 
 @media(max-width: 767px){
@@ -45,6 +50,20 @@
         }
 
     }
+    .consultation{
+        .title{
+            text-align: center;
+            font-size: 30px;
+        }
+        .consultation__descr{
+            text-align: center;
+        }
+        .feed-form{
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+
+    }
 }
 
 @media(max-width: 575px){
@@ -62,6 +81,15 @@
     .advantages{
         &__header{
             font-size: 28px;
+        }
+    }
+    .consultation{
+        .title{
+            font-size: 25px;
+        }
+        .consultation__descr{
+            margin-top: 60px;
+            font-size: 18px;
         }
     }
 }
@@ -85,6 +113,17 @@
         }
 
     }
+    .consultation{
+        .title{
+            font-size: 20px;
+        }
+        .consultation__descr{
+            font-size: 15px;
+        }
+        .feed-form{
+            width: 250px;
+        }
+    }
 }
 @media(max-width: 320px){
     .header{
@@ -96,6 +135,11 @@
         }
         &__phone{
             display: none;
+        }
+    }
+    .promo{
+        .button_main{
+            width: 250px;
         }
     }
 }
