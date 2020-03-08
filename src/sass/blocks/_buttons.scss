@@ -9,6 +9,10 @@
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+    &:hover{
+        box-shadow: 1px 1px 3px $main-color;
+        background: linear-gradient(to top, $main-color, #d60f0f);
+    }
     &_main{
         margin-top: 67px;
         width: 300px;

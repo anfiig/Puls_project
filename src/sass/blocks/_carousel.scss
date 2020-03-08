@@ -21,4 +21,18 @@
         right: -66px;
         left: auto;
     }
+    .slick-dots{
+        margin-top: 10px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        button{
+            margin: 0 5px 0;
+            background: #fff;
+            border: 2px solid $main-color;
+            color: #fff;
+            width: 20px;
+            height: 20px;
+        }
+    }
 }
