@@ -16,11 +16,11 @@
   },
   "homepage": "https://github.com/AndreyFilippov-designed/project#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
+    "browser-sync": "^2.29.3",
+    "gulp": "^5.0.0",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.2.0",
-    "gulp-cli": "^2.2.0",
+    "gulp-cli": "^3.0.0",
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^4.0.2"
   },
